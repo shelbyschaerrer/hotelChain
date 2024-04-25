@@ -83,13 +83,14 @@ nav {
         text-align: right;
         border-bottom: 1px rgba(0,0,0,.25);
         text-decoration: none;
-        color: white;
+        color: black;
         &:hover {
             background-color: #8FA1A6;
         }
     }
     ul li.active a {
         background-color: #2A3659;
+        color: white;
     }
 }
 
