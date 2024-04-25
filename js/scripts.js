@@ -20,7 +20,7 @@ castles.forEach(castle => {
     const mySection = document.createElement('section')
     
     const theImage = document.createElement('img')
-    theImage.src = `images/${castle.photo}`
+    theImage.src = `./images/${castle.photo}`
     theImage.alt = castle.name
     theImage.width = 450
     theImage.height = 300
