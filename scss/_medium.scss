@@ -1,0 +1,27 @@
+header {
+    padding: 2rem $gutter;
+    h1 {
+        font-size: 2rem;
+    }
+}
+
+#cards {
+    section {
+        grid-template-areas: "photo title" "photo address" "photo phone";
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    img {
+        width: 400px;
+    }
+    h2 {
+        margin-left: .5rem;
+        margin-right: .5rem;
+    }
+    address {
+        margin-left: .5rem;
+    }
+    a {
+        margin-left: .5rem;
+    }
+}
